@@ -1,0 +1,20 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Building your backend application..."
+
+test:
+  stage: test
+  script:
+    - echo "Running tests for your backend application..."
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying your backend application to Netlify..."
+    - netlify deploy --prod
