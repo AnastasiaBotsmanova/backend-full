@@ -1,0 +1,24 @@
+.idea/
+.vscode/
+node_modules
+build/
+dist/
+build-data/
+tmp/
+temp/
+.next
+yarn-error.log
+requests.html
+coverage/
+package-lock.json
+public/uploads
+storybook-static
+*.png
+*.pdf
+data
+
+.env
+*.db
+
+# Local Netlify folder
+.netlify
